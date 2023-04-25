@@ -2,17 +2,15 @@
 
 /**
  * print_alphabet - Make the alphabet
- * Return: void
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 
 {
-	char c;
+	char letter;
 
-	for (c = 'a'; c <= 'g'; c++)
-	{
-		_putchar(c);
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
 	_putchar('\n');
 }
