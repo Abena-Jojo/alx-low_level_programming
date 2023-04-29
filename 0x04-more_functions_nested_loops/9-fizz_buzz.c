@@ -23,6 +23,7 @@ else if (x % 5 == 0)
 Printf("Buzz");
 }
 else
+{
 printf("%d", x);
 }
 if (x != 100)
